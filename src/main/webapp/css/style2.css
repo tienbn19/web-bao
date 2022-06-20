@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trang-chu {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.thanh {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.tieu-de {
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	position: relative;
+	color: #fff;
+	font-size: 20px;
+	right: 20px;
+}
+
+.logo-kieu {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 55px;
+}
+
+.logo-wrap {
+	background-color: #da5550;
+	padding: 0 10px 10px 10px;
+}
+
+.thanh-menu {
+	min-width: 780px;
+	width: calc(100% - 94px);
+	align-items: center;
+	height: 60px;
+	display: flex;
+	list-style: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #ec5f5f;
+}
+
+.thanh-menu>li {
+	margin: 0 15px;
+}
+
+.thanh_2 {
+	min-width: 978px;
+	display: flex;
+	height: 30px;
+	justify-content: space-around;
+	background-color: #504f4f;
+	margin-bottom: 20px;
+}
+
+.thanh_2_menu {
+	align-items: center;
+	display: flex;
+	list-style: none;
+	color: #fff;
+	gap: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/* content main page */
+.noi-dung {
+	display: flex;
+	gap: 1%;
+}
+
+.noi-dung-trai {
+	width: 55%;
+}
+
+.noi-dung-right {
+	width: 44%;
+}
+
+.tieu-de-dang-chu-y {
+	font-weight: 600;
+	color: #636463;
+}
+
+.tin1 img {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+.tin1 {
+	position: relative;
+}
+
+.tieu-de-tin-hot {
+	color: #fff;
+	bottom: 0;
+	font: 700 22px/24px Tahoma;
+	position: absolute;
+	padding: 5px 15px;
+}
+
+.luoi-moi {
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2%;
+}
+
+.moi-tin {
+	position: relative;
+	width: 49%;
+	padding-bottom: 5px;
+}
+
+.nhan {
+	position: absolute;
+	left: 0;
+	background: orangered;
+	color: #fff;
+	padding: 3px 4px;
+}
+
+.moi-tin img {
+	height: 210px;
+	width: 100%;
+}
+
+.canh {
+	margin-top: 20px;
+	background-color: #efefef;
+}
+
+.kieu-canh {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background-color: rgb(223, 220, 220);
+}
+
+.canh-tin {
+	position: relative;
+	padding: 20px 0;
+	margin: 0 20px;
+	display: flex;
+	gap: 32px;
+	height: 100px;
+	border-bottom: 2px solid #fff;
+}
+
+.tag-moi {
+	position: absolute;
+}
+
+.tieu-de-tin-moi {
+	color: #393838;
+	margin-left: 10px;
+}
+
+.tieu-de-tin-moi:hover {
+	color: #cb0923;
+}
+
+.canh-tin>img {
+	border: 4px solid #ffffff;
+}
+
+.canh-tin:last-child {
+	border-bottom: 0px;
+}
+
+.top {
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	width: 100%;
+	background: #c6c5c5;
+	height: 35px;
+}
+
+.top a {
+	color: #fff;
+	width: 137px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #d21a32;
+	float: left;
+}
+
+.tin-cap-nhat {
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	background-color: #f4f3f3;
+}
+
+.tin-cap-nhat img {
+	width: 310px;
+	height: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.chinh {
+		width: 100%;
+	}
+}

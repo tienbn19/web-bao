@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+}
+
+.nav {
+	width: 15%;
+	background-color: #2f9e44;
+}
+
+.content {
+	width: 85%;
+	min-height: 1000px;
+	background-color: #b2f2bb;
+}
+
+.user {
+	position: relative;
+	padding: 12px 0;
+	display: flex;
+	gap: 24px;
+	border-bottom: 1px solid rgb(186, 183, 183);
+	margin: 0 12px;
+}
+
+.user-image {
+	width: 90px;
+	height: 90px;
+}
+
+.user-name, .user-role {
+	display: block;
+	color: #fff;
+	padding-bottom: 8px;
+}
+
+.time {
+	margin: 8px 12px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.database-control {
+	margin-top: 40px;
+	background-color: #465c72;
+	color: #fff;
+	padding: 12px 25px;
+}
+
+.database-control ul {
+	list-style-type: none;
+}
+
+.db-item {
+	padding: 30px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.db-item i {
+	width: 50px;
+}
+
+.content-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 104px;
+	background-color: #fff;
+	padding: 0 40px;
+	color: #465c72;
+	font-family: sans-serif;
+	border-bottom: 5px solid #82c91e;
+}
+
+.search-controll {
+	width: 300px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #7ba1b8;
+	font-size: 16px;
+}
+
+.active {
+	color: aquamarine;
+}
+
+.content-product, .content-customer, .content-brand {
+	padding: 20px 10px;
+}
+
+.products, .customers, .brands {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.products th, .products td, .customers th, .customers td, .brands th,
+	.brands td {
+	border: 1px solid #465c72;
+	padding: 10px 0;
+}
+
+.product-image {
+	width: 100%;
+	height: 280px;
+}
+
+.add-product {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 10px 10px;
+	background-color: #7ba1b8;
+	color: #fff;
+	border: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orangered;
+}
+
+.link-style {
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 10px 10px;
+	display: inline-block;
+	background-color: #7ba1b8;
+	color: #fff;
+}
+
+.brand-action {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+a[btn-link]{
+	color: #212529 !important;
+}
